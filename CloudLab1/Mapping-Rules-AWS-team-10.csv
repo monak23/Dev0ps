@@ -1,0 +1,48 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Product Code;Usage Type; [lineItem/Operation];lineItem/LineItemDescription
+Storage;Object Storage;Amazon S3;Data Transfer;Data Transfer Out;AmazonS3;%DataTransfer%;;
+Storage;Object Storage;Amazon S3;Data Storage;Standard Storage;AmazonS3;%AWS-%ytes;;
+Storage;Object Storage;Amazon S3;Data Transfer;Data Transfer Out;AmazonS3;%DataXfer%;;
+Storage;Object Storage;Amazon S3;Data Retrieval;Retrieval Operations;AmazonS3;%Retrieval-Bytes%;;
+Storage;Object Storage;Amazon S3;Replication;Replication Transfer;AmazonS3;%S3RTC%-Bytes%;;
+Storage;Object Storage;Amazon S3;Data Retrieval;Retrieval Operations;AmazonS3;%Retrieval-ZIA;;
+Storage;Object Storage;Amazon S3;Content Delivery;CloudFront Distribution;AmazonS3;%CloudFront%Bytes;;
+Database;NoSQL Database;Ledger Database;Amazon QLDB;Journal Storage;AmazonQLDB;%Storage;;
+Database;NoSQL Database;Ledger Database;Amazon QLDB;IO Requests;AmazonQLDB;%IO-Request;;
+Database;Data Warehouse;Amazon Redshift;Additional Costs;Tax;AmazonRedshift;;;Tax%
+Database;Data Warehouse;Amazon Redshift;Reserved Instance;Reserved Instance Utilization;AmazonRedshift;%HeavyUsage%;;
+Database;Data Warehouse;Amazon Redshift;Compute Node;RA3 Node Usage;AmazonRedshift;%Node:ra%;;
+Database;Data Warehouse;Amazon Redshift;Query Execution;Data Scanned;AmazonRedshift;%DataScanned%;;
+Database;Data Warehouse;Amazon Redshift;Compute Node;DC2 Node Usage;AmazonRedshift;%Node:dc%;;
+Database;Data Warehouse;Amazon Redshift;Compute Node;DS2 Node Usage;AmazonRedshift;%Node:ds%;;
+Networking;Network Infrastructure;Virtual Private Cloud;Amazon VPC;Tax;AmazonVPC;;;Tax%
+Networking;Network Infrastructure;Virtual Private Cloud;Amazon VPC;Data Transfer;AmazonVPC;%DataTransfer%Bytes;;
+Networking;Network Infrastructure;Virtual Private Cloud;Amazon VPC;Other Networking;AmazonVPC;%AWS%Bytes;;
+Networking;Network Infrastructure;Virtual Private Cloud;Amazon VPC;CloudFront Data Transfer;AmazonVPC;%CloudFront%Bytes%;;
+Networking;Network Infrastructure;Virtual Private Cloud;Amazon VPC;VPN Connection;AmazonVPC;%VPN-Usage-Hours:ipsec.1;;
+Networking;Network Infrastructure;Virtual Private Cloud;Amazon VPC;Transit Gateway Attachment;AmazonVPC;%TransitGateway-Hours;;
+Networking;Network Infrastructure;Virtual Private Cloud;Amazon VPC;Transit Gateway Data Processing;AmazonVPC;%TransitGateway-Bytes;;
+Networking;Network Infrastructure;Virtual Private Cloud;Amazon VPC;VPC Endpoint Data Processed;AmazonVPC;%VpcEndpoint-Bytes;;
+Networking;Network Infrastructure;Virtual Private Cloud;Amazon VPC;VPC Endpoint Hours;AmazonVPC;%VpcEndpoint-Hours;;
+Networking;Network Infrastructure;Virtual Private Cloud;Amazon VPC;VPC Endpoint Hours;AmazonVPC;%EndpointHours;;
+Networking;Network Infrastructure;Virtual Private Cloud;Amazon VPC;Traffic Mirroring;AmazonVPC;%ENI-Mirror;;
+Networking;Network Infrastructure;Virtual Private Cloud;Amazon VPC;Direct Connect Connection;AmazonVPC;%ConnectionHours;;
+Cloud Services;Application Services;Email Service;Amazon SES;Tax;AmazonSES;;;Tax%
+Cloud Services;Application Services;Email Service;Amazon SES;Email Recipients;AmazonSES;%Recipients%;;
+Cloud Services;Application Services;Email Service;Amazon SES;Attachment Size;AmazonSES;%AttachmentsSize-Bytes;;
+Cloud Services;Application Services;Email Service;Amazon SES;Inbound Email Chunks;AmazonSES;%ReceivedChunk%;;
+Cloud Services;Application Services;Email Service;Amazon SES;Messages Sent;AmazonSES;%Message%;;
+Cloud Services;Application Services;Email Service;Amazon SES;Data Transfer Out;AmazonSES;%DataTransfer-Out-Bytes;;
+Cloud Services;Application Services;Email Service;Amazon SES;Data Transfer In;AmazonSES;%DataTransfer-In-Bytes;;
+Cloud Services;Application Services;Messaging Service;Amazon SNS;Tax;AmazonSNS;;;Tax%
+Cloud Services;Application Services;Messaging Service;Amazon SNS;API Requests (Tier 1);AmazonSNS;%Requests-Tier1;;
+Cloud Services;Application Services;Messaging Service;Amazon SNS;API Requests (Tier 2);AmazonSNS;%Requests-Tier2;;
+Cloud Services;Application Services;Messaging Service;Amazon SNS;Data Transfer Out;AmazonSNS;%DataTransfer-Out-Bytes;;
+Cloud Services;Application Services;Messaging Service;Amazon SNS;Data Transfer In;AmazonSNS;%DataTransfer-In-Bytes;;
+Cloud Services;Application Services;Messaging Service;Amazon SNS;Mobile Push (GCM);AmazonSNS;%DeliveryAttempts-GCM;;
+Cloud Services;Application Services;Messaging Service;Amazon SNS;Email Delivery (SMTP);AmazonSNS;%DeliveryAttempts-SMTP;;
+Cloud Services;Application Services;Messaging Service;Amazon SNS;HTTP/HTTPS Delivery;AmazonSNS;%DeliveryAttempts-HTTP;;
+Cloud Services;Application Services;Messaging Service;Amazon SNS;SQS Queue Delivery;AmazonSNS;%DeliveryAttempts-SQS;;
+Cloud Services;Application Services;Messaging Service;Amazon SNS;SMS Messages;AmazonSNS;%SMS-Price%;;
+Cloud Services;Application Services;Messaging Service;Amazon SNS;SMS Messages;AmazonSNS;%SMS-Sent%;;
+Cloud Services;Application Services;Messaging Service;Amazon SNS;Mobile Push (APNS);AmazonSNS;%DeliveryAttempts-APNS%;;
+Cloud Services;Application Services;Messaging Service;Amazon SNS;Lambda Function Invocation;AmazonSNS;%DeliveryAttempts-LAMBDA;;
