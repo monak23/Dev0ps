@@ -1,0 +1,18 @@
+name: Bad CI
+
+on: [push]  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  
+    
+    steps:
+      - uses: actions/checkout@v1  
+      
+      - name: Install Node.js
+        run: sudo apt-get update && sudo apt-get install -y nodejs npm  
+      
+      - name: Run build
+        run: |
+          echo "Building project..."
+          sleep 5  # Bad: нет timeout для команды
