@@ -18,6 +18,15 @@
 | 6 | **Таймаут команд** | `sleep 5` | `timeout 10 bash -c 'sleep 5'` | Защита от зависания отдельных команд |
 
 ---
+## BAD 
+![telegram-cloud-photo-size-2-5323492950308228323-y](https://github.com/user-attachments/assets/8f0183e2-6abd-4326-b536-a7a5c7b978d1)
+
+## GOOD
+![telegram-cloud-photo-size-2-5323492950308228325-y](https://github.com/user-attachments/assets/40f85abf-fd7e-40b0-a5e0-67ed2c911fa5)
+
+## Запуск
+![telegram-cloud-photo-size-2-5323492950308228381-y](https://github.com/user-attachments/assets/d4681282-c293-4ca2-8f1a-bb2080d75f48)
+![telegram-cloud-photo-size-2-5323492950308228382-y](https://github.com/user-attachments/assets/854d2d89-21bf-4528-8354-b8d9fbf0f3a2)
 
 ## История про Васю
 
